@@ -2,7 +2,7 @@
     ──「 𝐒𝐡𝐢𝐤𝐢𝐦𝐨𝐫𝐢 𝐒𝐚𝐧 𝐁𝐨𝐭 」──
 </h2>
 
-> Shikimori San Is The Most Complete Bot To Help You Manage Your Groups Easily And Safely!
+> [Shikimori](https://ikx7a/Shikimori-San) Is The Most Complete Bot To Help You Manage Your Groups Easily And Safely!
 
 <p align="center">
   <img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Shikimori-San.jpeg">
