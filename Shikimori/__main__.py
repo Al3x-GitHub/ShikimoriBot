@@ -81,12 +81,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hey* {},
-
-This Is ᴛʜɪs ɪs {} !
-The Most Powerful Telegram Group Management Bot With Some Awesome And Useful Features.
-▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
-*𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖧𝖾𝗅𝗉 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.*
+────「 [sʜɪᴋɪᴍᴏʀɪ ᴍɪᴄᴄʜᴏɴ](https://telegra.ph/file/82604a7341ba9fa0c716b.mp4) 」────
+やあ Kon'ichiwa {} 
+I'm Shikimori Micchon An Kawaii Advanced Group Management Bot.
+───────────────────────
+  ♡ Try The More Button To Know More ♡
 """
 
 buttons = [
@@ -113,7 +112,6 @@ HELP_STRINGS = f"""
 » {BOT_NAME} 𝗘𝘅𝗰𝗹𝘂𝘀𝗶𝘃𝗲 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀
 
 ➲ /start : Start Me | According To Me You've Already Done It.
-➲ /donate : No Need.
 ➲ /help  : Available Commands Section.
   ‣ In PM : Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Hᴇʟᴘ​ Fᴏʀ Aʟʟ Sᴜᴘᴘᴏʀᴛᴇᴅ Mᴏᴅᴜʟᴇꜱ.
   ‣ In Group : Wɪʟʟ Rᴇᴅɪʀᴇᴄᴛ Yᴏᴜ Tᴏ Pᴍ, Wɪᴛʜ Aʟʟ Tʜᴀᴛ Hᴇʟᴘ​ Mᴏᴅᴜʟᴇꜱ."""
