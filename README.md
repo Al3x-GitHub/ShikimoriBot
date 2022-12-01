@@ -8,7 +8,7 @@
   <img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Shikimori-San.jpeg">
 </p>
 <h3 align="center">
-    Ready To Use Method
+    ─「 𝐑𝐞𝐚𝐝𝐲 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞𝐭𝐡𝐨𝐝 」─
 </h3>
 <p align="center">
     A Ready-To-Use Running Instance Of This Bot Can Be Found On Telegram <br>
@@ -16,7 +16,7 @@
 </p>
 
 <h3 align="center">
-   Requirements
+   ─「 𝐑𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬 」─
 </h3>
 
 <p align="center">
