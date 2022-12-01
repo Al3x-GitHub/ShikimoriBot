@@ -25,8 +25,6 @@
     <a href="https://t.me/botfather"> Telegram Bot Token </a> |
     <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> MongoDB URI </a>
 </p>
-
-
 <h3 align="center">
     ─「 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐇𝐞𝐫𝐨𝐤𝐮 」─
 </h3>
