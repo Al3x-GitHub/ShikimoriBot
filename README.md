@@ -14,6 +14,19 @@
     A Ready-To-Use Running Instance Of This Bot Can Be Found On Telegram <br>
     <a href="http://telegram.me/ShikimoriSan1Bot"> Shikimori's San </a>
 </p>
+
+<h3 align="center">
+   Requirements
+</h3>
+
+<p align="center">
+    <a href="https://www.python.org/downloads/release/python-390/"> Python3.9 </a> |
+    <a href="https://docs.pyrogram.org/intro/setup#api-keys"> Telegram API Key </a> |
+    <a href="https://t.me/botfather"> Telegram Bot Token </a> |
+    <a href="https://telegra.ph/How-To-get-Mongodb-URI-04-06"> MongoDB URI </a>
+</p>
+
+
 <h3 align="center">
     ─「 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐇𝐞𝐫𝐨𝐤𝐮 」─
 </h3>
