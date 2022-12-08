@@ -1,74 +1,49 @@
-import json
-import os
-
-
-def get_user_list(config, key):
-    with open("{}/ShikimoriSanBot/{}".format(os.getcwd(), config), "r") as json_file:
-        return json.load(json_file)[key]
-
-
 class Config(object):
     LOGGER = True
 
+  # Get this value from my.telegram.org/apps
     API_ID = ""
     API_HASH = ""
-    TOKEN = ""
-    OWNER_ID = ""
-    OWNER_USERNAME = ""
-    SUPPORT_CHAT = ""
-    JOIN_LOGGER = ()
-    EVENT_LOGS = ()
 
-    SQLALCHEMY_DATABASE_URI = ""
-    MONGO_DB_URI = ""
-    LOAD = []
-    NO_LOAD = ["rss"]
-    WEBHOOK = False
-    INFOPIC = True
-    URL = None
+    CASH_API_KEY = "NS1L49IK9JK5NOFW"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    # OPTIONAL
-    ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "sudos")
-    ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
-    ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "supports")
-    # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "tigers")
-    WOLVES = get_user_list("elevated_users.json", "whitelists")
+    DATABASE_URL = ""  # A sql database url from elephantsql.com
 
-    DONATION_LINK = ""
-    CERT_PATH = None
-    PORT = 5000
-    DEL_CMDS = True
-    STRICT_GBAN = True
-    WORKERS = (
-        8  # Number of subthreads to use. Set as number of threads your processor uses
-    )
-    BAN_STICKER = (
-        "CAACAgUAAxkBAAEDafNhq5Z0DegqVzauwSighMw5cPWp8QACVgQAAuUG0FRXfCEuBziNzCIE"
-    )
-    ALLOW_EXCL = True
-    CASH_API_KEY = ""
-    TIME_API_KEY = "GEPQT8JKXS7P"
-    BL_CHATS = []
-    SPAMMERS = None
-    ALLOW_CHATS = True
-    START_IMG = ""
-    HEROKU_API_KEY = None
-    HEROKU_APP_NAME = None
-    TEMP_DOWNLOAD_DIRECTORY = "./"
-    ARQ_API_KEY = "LJMETG-DPHBCX-DGHJCD-TMFIGB-ARQ"
-    ARQ_API_URL = "https://arq.hamker.in"
-    ALLOW_EXCL = None
+    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+
+    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+
+  # Telegraph link of the image which will be shown at start command.
+    START_IMG = "https://te.legra.ph/file/c39e2bf0135256b056542.jpg"
+
+    SUPPORT_CHAT = "MaximXGroup"  # Your Telegram support group chat username where your users will go and bother you
+
+    TOKEN = ""  # Get bot token from @BotFather on Telegram
+
+    TIME_API_KEY = "GEPQT8JKXS7P"  # Get this value from https://timezonedb.com/api
+
+    OWNER_ID =   # User id of your telegram account (Must be integer)
+
+  # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SPAMMERS = None
+    DRAGONS = []  # User id of sudo users
+    DEV_USERS = []  # User id of dev users
+    DEMONS = []  # User id of support users
+    TIGERS = []  # User id of tiger users
+    WOLVES = []  # User id of whitelist users
 
+    ALLOW_CHATS = True
+    ALLOW_EXCL = True
+    DEL_CMDS = True
+    INFOPIC = True
+    LOAD = []
+    NO_LOAD = []
+    STRICT_GBAN = True
+    TEMP_DOWNLOAD_DIRECTORY = "./"
+    WORKERS = (8)
 
 class Production(Config):
     LOGGER = True
-
 
 class Development(Config):
     LOGGER = True
