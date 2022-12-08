@@ -66,12 +66,6 @@ Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
 Press `Ctrl+b` and then `d`
 
 </details>
-
-<p align="center">
-  <img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Shikimori's.jpeg">
-</p>
-
-
 <h3 align="center">
     ─「 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 & 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 」─
 </h3>
