@@ -31,6 +31,42 @@
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/AL3X-Github/ShikimoriBot"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
+<h3 align="center">
+    ─「 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐕𝐏𝐒/𝐋𝐨𝐜𝐚𝐥 」─
+</h3>
+<details>
+<summary><h5>𝐕𝐏𝐒/𝐋𝐎𝐂𝐀𝐋 𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓 𝐌𝐄𝐓𝐇𝐎𝐃
+</h5></summary>
+
+- Get your [Necessary Variables](https://github.com/Al3x-GitHub/ShikimoriBot/blob/master/Shikimori/config.py)
+- Upgrade and Update by :
+`sudo apt-get update && sudo apt-get upgrade -y`
+- Install required packages by :
+`sudo apt-get install python3-pip -y`
+- Install pip by :
+`sudo pip3 install -U pip`
+- Clone the repository by :
+`git clone https://github.com/Al3x-GitHub/ShikimoriBot && cd Shikimori`
+- Install/Upgrade setuptools by :
+`pip3 install --upgrade pip setuptools`
+- Install requirements by :
+`pip3 install -U -r requirements.txt`
+- Fill your variables in config by :
+`vi Shikimori/config.py`
+
+Press `I` on the keyboard for editing config
+
+Press `Ctrl+C` when you're done with editing config and `:wq` to save the config
+- Install tmux to keep running your bot when you close the terminal by :
+`sudo apt install tmux && tmux`
+- Finally run the bot by :
+`python3 -m Shikimori`
+- For getting out from tmux session
+
+Press `Ctrl+b` and then `d`
+
+</details>
+
 <p align="center">
   <img src="https://github.com/AL3X-Github/Resources/blob/main/Photos/Shikimori's.jpeg">
 </p>
